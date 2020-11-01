@@ -1,0 +1,54 @@
+h1{
+    font-size: 55px;
+    color: cornsilk;
+    text-align: center;
+    font-style: italic;
+}
+body{
+    background-image:url(criptografia2.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    opacity: 0.9;
+    }
+.flex-centralizado{
+    display: flex;
+    justify-content: center;
+}
+.areaprincipal{
+    background-color: black;
+    color:white;
+    width: 68%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
+p{
+    font-size: 30px;
+}
+.formulario{
+    background-color: black;
+    max-width: 300px;
+    width: 110%;
+    padding: 20px;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 {
+    color:white;
+}
+.formulari{
+    background-color: black;
+    max-width: 300px;
+    width: 110%;
+    padding: 20px;
+    float: right;
+    font-size: 18px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+    color: white;
+}
+    
