@@ -24,6 +24,7 @@ body{
 }   
 p{
     font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .formulario{
     background-color: black;
@@ -36,6 +37,7 @@ p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h3 {
+    
     color:white;
 }
 .formulari{
@@ -49,6 +51,58 @@ h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h2 {
+    font-size:30px;
     color: white;
 }
-    
+
+#inputTexto{
+    padding: 3px;
+    font-size: 20px;
+}
+
+#inputTextoConvertido{
+    padding: 3px;
+    font-size: 20px;
+}
+
+#inputDeslocamento{
+    padding: 3px;
+    font-size: 20px;
+    text-align: center;
+    width: 40px;
+}
+#inputText{
+    padding: 3px;
+    font-size: 20px;
+}
+
+#inputTextoConvertid{
+    padding: 3px;
+    font-size: 20px;
+}
+
+#inputDeslocament{
+    padding: 3px;
+    font-size: 20px;
+    text-align: center;
+    width: 40px;  
+}
+
+#bt{
+    padding: 3px;
+    text-align: center;
+}
+
+#bt2{
+    padding: 3px;
+    text-align: center; 
+}
+#bot{
+    padding: 3px;
+    text-align: center;
+}
+
+#bot2{
+    padding: 3px;
+    text-align: center; 
+}
