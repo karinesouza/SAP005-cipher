@@ -1,45 +1,31 @@
-/*import cipher from './cipher.js';
-console.log(cipher);*/
+import cipher from './cipher.js';
+console.log(cipher);
 
-function converter(palavra, deslocamento){
-    let palavracod=""
- for(let i=0; i<palavra.length;i++){
-     let letraminuscula=palavra.toUpperCase()
-     let resultado1=(letraminuscula.charCodeAt(i)+deslocamento-65)%26
-     let resultado2= resultado1+65
-     let exibir= String.fromCharCode(resultado2)
-     palavracod += exibir
+const btnCodificar= document.getElementById("botaoCodificar")
+btnCodificar.addEventListener("click", codificaFrase)
 
-}
-return palavracod
-}
-function desconverter(palavra, deslocamento){
-    let palavracod=""
- for(let i=0; i<palavra.length;i++){
-     let letraminuscula=palavra.toUpperCase()
-     let resultado1=(letraminuscula.charCodeAt(i)-deslocamento+65)%26
-     let resultado2= resultado1+65
-     let exibir= String.fromCharCode(resultado2)
-     palavracod += exibir
-
-}
-return palavracod
-}
-function BtnDesconverter() {
-	let palavra = document.getElementById("inputText").value;
-	let deslocamento = parseInt(document.getElementById("inputDeslocament").value);
-    document.getElementById("inputTextoConvertid").value = desconverter(palavra, deslocamento); 
-}
-
-function BtnConverter() {
+function codificaFrase() {
 	let palavra = document.getElementById("inputTexto").value;
 	let deslocamento = parseInt(document.getElementById("inputDeslocamento").value);
-    document.getElementById("inputTextoConvertido").value = converter(palavra, deslocamento); 
+    document.getElementById("inputTextoConvertido").value = cipher.encode(palavra, deslocamento); 
 }
 
+const btnDecodificar= document.getElementById("botaoDecodificar")
+btnDecodificar.addEventListener("click", decodificaFrase)
+
+function decodificaFrase() {
+	let palavra = document.getElementById("inputText").value;
+	let deslocamento = parseInt(document.getElementById("inputDeslocament").value);
+    document.getElementById("inputTextoConvertid").value = cipher.decode(palavra, deslocamento); 
+}
+const btnResetar= document.getElementById("botaoResetar")
+btnResetar.addEventListener("click", resetar)
 function resetar() {
     document.getElementById("myForm").reset();
   }
-  function resetar1() {
+  
+const btnLimpar= document.getElementById("botaoLimpar")
+btnLimpar.addEventListener("click", resetarb)
+function resetarb() {
     document.getElementById("meuForm").reset();
   }
