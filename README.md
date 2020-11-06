@@ -40,12 +40,6 @@ Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que ir
 interagir com o usuário final através do navegador utilizando HTML, CSS e
 JavaScript como ferramentas.
 
-### HTML e CSS
-
-* [ ] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
-* [ ] Uso de seletores de CSS.
-* [ ] Construir uma aplicação respeitando o desenho realizado (protótipo).
-
 ### DOM
 
 * [ ] Uso de seletores do DOM.
