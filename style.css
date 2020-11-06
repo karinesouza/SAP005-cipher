@@ -4,105 +4,104 @@ h1{
     text-align: center;
     font-style: italic;
 }
+
 body{
     background-image:url(criptografia2.jpg);
     background-repeat:no-repeat;
     background-size:100%;
     opacity: 0.9;
-    }
-.flex-centralizado{
-    display: flex;
-    justify-content: center;
 }
-.areaprincipal{
-    background-color: black;
-    color:white;
-    width: 68%;
-    margin: 0 auto;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}   
-p{
+
+#description{
+    display: inline-block;
     font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.formulario{
     background-color: black;
-    max-width: 300px;
-    width: 110%;
-    padding: 20px;
-    float: left;
-    font-size: 18px;
+    color:white;
+    width: 40%;
+    margin-left: 5%;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-h3 {
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}   
+
+h3{
     color:white;
 }
-.formulari{
-    background-color: black;
-    max-width: 300px;
-    width: 110%;
-    padding: 20px;
+
+#rightForm{
     float: right;
+    background-color: black;
+    width: 22%;
+    padding: 20px;
     font-size: 18px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-h2 {
+
+#leftForm{
+    float: left;
+    background-color: black;
+    width: 22%;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
     font-size:30px;
     color: white;
 }
 
-#inputTexto{
-    padding: 3px;
-    font-size: 20px;
-}
-
-#inputTextoConvertido{
-    padding: 3px;
-    font-size: 20px;
-}
-
-#inputDeslocamento{
-    padding: 3px;
-    font-size: 20px;
-    text-align: center;
-    width: 40px;
-}
 #inputText{
     padding: 3px;
     font-size: 20px;
 }
 
-#inputTextoConvertid{
+#inputConvertedText{
     padding: 3px;
     font-size: 20px;
 }
 
-#inputDeslocament{
+#inputOffset{
+    padding: 3px;
+    font-size: 20px;
+    text-align: center;
+    width: 40px;
+}
+
+#inputText2{
+    padding: 3px;
+    font-size: 20px;
+}
+
+#inputConvertedText2{
+    padding: 3px;
+    font-size: 20px;
+}
+
+#inputOffset2{
     padding: 3px;
     font-size: 20px;
     text-align: center;
     width: 40px;  
 }
 
-#bt{
+#buttonEncode{
     padding: 3px;
     text-align: center;
 }
 
-#bt2{
+#buttonReset{
     padding: 3px;
     text-align: center; 
 }
-#bot{
+
+#buttonDecode{
     padding: 3px;
     text-align: center;
 }
 
-#bot2{
+#buttonReset2{
     padding: 3px;
     text-align: center; 
 }
