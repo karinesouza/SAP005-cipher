@@ -1,4 +1,4 @@
-# Criptografia de Senhas 🔒
+# 🔒 Criptografia de Senhas 🔒
 
 ## Índice
 
@@ -6,6 +6,7 @@
 * [2. Descrição do projeto](#2-Descrição-do-projeto)
 * [3. Usuários](#3-Usuários)
 * [4. Instruções de uso](#4-Instruções-de-uso)
+* [5. Processo de desenvolvimento](#-Processo-de-desenvolvimento)
 
 ***
 
@@ -35,17 +36,44 @@ torna-las mais seguras. De uma forma muito simples e rápida, o usuário consegu
 senhas para usar em diversos sites, emails e redes sociais. E Além de codifica-las,
 consegue decodifica-las também!
 
-Para acessar clique aqui   
-
+Para acessar [clique aqui]()
 ![paginaweb](pagina.png)
 
-## 3. Instruçoes de uso
+## 3. Usuários
 
-* Acesse a página através do link
-* Utilize o campo da esquerda para codificar
-* Utilize o campo da direita para decodificar
-* Digite a senha no campo escolhido
-* Selecione um número de deslocamento
-* Clique em codificar ou decodificar
-* Pronto! Sua nova senha será exibida no campo correspondente
+A página pode ser utilizada por qualquer pessoa que deseja ter mais segurança e facilidade
+na hora de criar suas senhas. 💻
+
+## 4. Instruçoes de uso
+
+* Acesse a página através desse [link]();
+* Utilize o campo da esquerda para codificar;
+* Utilize o campo da direita para decodificar;
+* Digite a senha no campo escolhido;
+* Selecione um número de deslocamento;
+* Clique em codificar ou decodificar;
+* Pronto! Sua nova senha será exibida no campo correspondente;
+
+## 5. Processo de desenvolvimento
+
+➡️ Escolha do público alvo
+➡️ Leitura para entender melhor a Cifra de César
+➡️ Criação da estrutura da página
+➡️ Estlização da página
+➡️ Estudo de JavaScript
+➡️ Criaçaõ das funções Encode e Decode
+➡️ Estudo do DOM
+➡️ Aplicação do DOM
+➡️ Execução dos testes
+➡️ Resolução dos problemas que surgiram nos testes
+➡️ Revisão geral dos códigos
+➡️ Criação do Readme
+
+
+
+
+
+
+
+
 
