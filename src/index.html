@@ -10,50 +10,42 @@
     
     <h1>Criptografia de senhas</h1>
 
-    <main class="flex-centralizado">
-      <div>
-        <div class='formulario'>
-          <form id="myForm">
-            <h2>CRIPTOGRAFAR</h2>
-            <h3>Digite sua senha:</h3>
-            <input type="text" id="inputTexto" name="inputTexto">
-            <h3>Deslocamento:</h3>
-            <input type="number" id="inputDeslocamento" name="inputDeslocamento" min="1">
-            <br>
-            <br>
-            <input type="button" id="botaoCodificar" value="Codificar">
-            <input type="button" id="botaoResetar" value="Limpar">
-            <h3>Senha criptografada:</h3>
-            <input type="text" id="inputTextoConvertido" name="textoConvertido" readonly>
-            <br>
-          </form>
-        </div>
-     </div>
-      <div>
-        <div class='areaprincipal'>
-         <p>Quer deixar suas senhas mais seguras?<br>Aqui você consegue codificar suas senhas para usar em diversos sites, emails e redes sociais! E se quiser pode decodifica-las também!<br>
-            O melhor disso tudo é que você fará isso de uma forma muito rápida e simples!</p>
-         <p>Utilize o campo da esquerda para codificar e o da direita para decodificar!</p>
-        </div>
-      </div>
-      <div>
-        <div class='formulari'>
-          <form id="meuForm">
-            <h2>DESCRIPTOGRAFAR</h2>
-            <h3>Digite sua senha:</h3>
-            <input type="text" id="inputText" name="inputText">
-            <h3>Deslocamento:</h3>
-            <input type="number" id="inputDeslocament" name="inputDeslocament" min="1">
-            <br>
-            <br>
-            <input type="button" id="botaoDecodificar" value="Decodificar">
-            <input type="button" id="botaoLimpar" value="Limpar">
-            <h3>Senha descriptografada:</h3>
-            <input type="text" id="inputTextoConvertid" name="textoConvertid" readonly>
-          </form>
-        </div>
-      </div>
-    </main>
+    <div id="leftForm">
+      <form id="myForm">
+        <h2>CRIPTOGRAFAR</h2>
+        <h3>Digite sua senha:</h3>
+        <input type="text" id="inputText" name="inputText">
+        <h3>Deslocamento:</h3>
+        <input type="number" id="inputOffset" name="inputOffset" min="1">
+        <br>
+        <br>
+        <input type="button" id="buttonEncode" value="Codificar">
+        <input type="button" id="buttonReset" value="Limpar">
+        <h3>Senha criptografada:</h3>
+        <input type="text" id="inputConvertedText" name="ConvertedText" readonly>
+        <br>
+      </form>
+    </div>
+    <div id="description">
+      <p>Quer deixar suas senhas mais seguras?<br>Aqui você consegue codificar suas senhas para usar em diversos sites, emails e redes sociais! E se quiser pode decodifica-las também!<br>
+        O melhor disso tudo é que você fará isso de uma forma muito rápida e simples!</p>
+      <p>Utilize o campo da esquerda para codificar e o da direita para decodificar!</p>
+    </div>
+    <div id="rightForm">
+      <form id="myForm2">
+        <h2>DESCRIPTOGRAFAR</h2>
+        <h3>Digite sua senha:</h3>
+        <input type="text" id="inputText2" name="inputText2">
+        <h3>Deslocamento:</h3>
+        <input type="number" id="inputOffset2" name="inputOffset2" min="1">
+        <br>
+        <br>
+        <input type="button" id="buttonDecode" value="Decodificar">
+        <input type="button" id="buttonReset2" value="Limpar">
+        <h3>Senha descriptografada:</h3>
+        <input type="text" id="inputConvertedText2" name="ConvertedText2" readonly>
+      </form>
+    </div>
   </body>
   <script src="index.js" type="module"></script>
 </html>
