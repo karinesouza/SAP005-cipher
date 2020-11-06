@@ -55,7 +55,7 @@ na hora de criar suas senhas. 💻
 * Clique em codificar ou decodificar;
 * Pronto! Sua nova senha será exibida no campo correspondente.
 
-## 5. Processo de desenvolvimento
+## 5. Processo de desenvolvimento 📝💻🙎🏻
 
 ➡️ Escolha do público alvo
 
