@@ -32,6 +32,7 @@ torna-las mais seguras. De uma forma muito simples e rápida, o usuário consegu
 senhas para usar em diversos sites, emails e redes sociais. E Além de codifica-las,
 consegue decodifica-las também!
 
+![paginaweb](pagina.png)
 
 ## 3. Instruçoes de uso
 
