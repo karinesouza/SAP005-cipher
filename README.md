@@ -37,6 +37,7 @@ senhas para usar em diversos sites, emails e redes sociais. E Além de codifica-
 consegue decodifica-las também!
 
 Para acessar [clique aqui]()
+
 ![paginaweb](pagina.png)
 
 ## 3. Usuários
@@ -52,21 +53,32 @@ na hora de criar suas senhas. 💻
 * Digite a senha no campo escolhido;
 * Selecione um número de deslocamento;
 * Clique em codificar ou decodificar;
-* Pronto! Sua nova senha será exibida no campo correspondente;
+* Pronto! Sua nova senha será exibida no campo correspondente.
 
 ## 5. Processo de desenvolvimento
 
 ➡️ Escolha do público alvo
+
 ➡️ Leitura para entender melhor a Cifra de César
+
 ➡️ Criação da estrutura da página
+
 ➡️ Estlização da página
+
 ➡️ Estudo de JavaScript
+
 ➡️ Criaçaõ das funções Encode e Decode
+
 ➡️ Estudo do DOM
+
 ➡️ Aplicação do DOM
+
 ➡️ Execução dos testes
+
 ➡️ Resolução dos problemas que surgiram nos testes
+
 ➡️ Revisão geral dos códigos
+
 ➡️ Criação do Readme
 
 
