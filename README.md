@@ -36,7 +36,7 @@ torna-las mais seguras. De uma forma muito simples e rápida, o usuário consegu
 senhas para usar em diversos sites, emails e redes sociais. E Além de codifica-las,
 consegue decodifica-las também!
 
-Para acessar [clique aqui]()
+Para acessar [clique aqui](https://karinesouza.github.io/SAP005-cipher/.)
 
 ![paginaweb](pagina.png)
 
@@ -47,7 +47,7 @@ na hora de criar suas senhas. 💻
 
 ## 4. Instruçoes de uso
 
-* Acesse a página através desse [link]();
+* Acesse a página através desse [link](https://karinesouza.github.io/SAP005-cipher/.);
 * Utilize o campo da esquerda para codificar;
 * Utilize o campo da direita para decodificar;
 * Digite a senha no campo escolhido;
