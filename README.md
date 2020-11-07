@@ -12,10 +12,10 @@
 
 ## 1. Cifra de César
 
-A Cifra de César é uma técnica bem conhecida de criptografia, um tipo de cifra
-de substituição, onde cada letra de uma palavra a ser criptografada é substituída
-por outra letra presente no alfabeto, deslocada com um número de posições
-à esquerda ou à direita.
+A Cifra de César é uma técnica bem conhecida de criptografia, um tipo de
+cifra de substituição, onde cada letra de uma palavra a ser criptografada
+é substituída por outra letra presente no alfabeto, deslocada com um núme-
+ro de posições à esquerda ou à direita.
 Por exemplo se usarmos o deslocamento de 3 posições:
 
 Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
@@ -26,15 +26,15 @@ A letra A será D
 
 A palavra CASA será FDVD
 
-A cifra de César recebeu esse nome pois o Imperador Julio César a utilizava
-para se comunicar com os seus generais.
+A cifra de César recebeu esse nome pois o Imperador Julio César a utiliza-
+va para se comunicar com os seus generais.
 
 ## 2. Descrição do projeto
 
-O projeto consiste em utilizar a tecnica da Cifra de César para codificar senhas e
-torna-las mais seguras. De uma forma muito simples e rápida, o usuário consegue criar
-senhas para usar em diversos sites, emails e redes sociais. E Além de codifica-las,
-consegue decodifica-las também!
+O projeto consiste em utilizar a técnica da Cifra de César para codificar 
+senhas e torna-las mais seguras. De uma forma muito simples e rápida, o 
+usuário consegue criar senhas para usar em diversos sites, emails e redes 
+sociais. E Além de codifica-las, consegue decodifica-las também!
 
 Para acessar [clique aqui](https://karinesouza.github.io/SAP005-cipher/.)
 
@@ -42,12 +42,12 @@ Para acessar [clique aqui](https://karinesouza.github.io/SAP005-cipher/.)
 
 ## 3. Usuários
 
-A página pode ser utilizada por qualquer pessoa que deseja ter mais segurança e facilidade
-na hora de criar suas senhas. 💻
+A página pode ser utilizada por qualquer pessoa que deseja ter mais segurança
+e facilidade na hora de criar suas senhas. 💻
 
-## 4. Instruçoes de uso
+## 4. Instruções de uso
 
-* Acesse a página através desse [link](https://karinesouza.github.io/SAP005-cipher/.);
+* Acesse a página através deste [link](https://karinesouza.github.io/SAP005-cipher/.);
 * Utilize o campo da esquerda para codificar;
 * Utilize o campo da direita para decodificar;
 * Digite a senha no campo escolhido;
@@ -67,7 +67,7 @@ na hora de criar suas senhas. 💻
 
 ➡️ Estudo de JavaScript
 
-➡️ Criaçaõ das funções Encode e Decode
+➡️ Criação das funções Encode e Decode
 
 ➡️ Estudo do DOM
 
