@@ -14,8 +14,7 @@
 
 A Cifra de César é uma técnica bem conhecida de criptografia, um tipo de
 cifra de substituição, onde cada letra de uma palavra a ser criptografada
-é substituída por outra letra presente no alfabeto, deslocada com um núme-
-ro de posições à esquerda ou à direita.
+é substituída por outra letra presente no alfabeto, deslocada com um número de posições à esquerda ou à direita.
 Por exemplo se usarmos o deslocamento de 3 posições:
 
 Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
@@ -26,8 +25,7 @@ A letra A será D
 
 A palavra CASA será FDVD
 
-A cifra de César recebeu esse nome pois o Imperador Julio César a utiliza-
-va para se comunicar com os seus generais.
+A cifra de César recebeu esse nome pois o Imperador Julio César a utilizava para se comunicar com os seus generais.
 
 ## 2. Descrição do projeto
 
