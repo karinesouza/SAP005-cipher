@@ -1,35 +1,36 @@
+/* eslint-disable linebreak-style */
 const cipher = {
-    encode:
-    function(offset, word){
-        if (typeof word !== "string"){
-            throw new TypeError("Digite apenas letras");
-}
-        let codedWord = ""
-        for(let i = 0; i < word.length; i++){
-            let lettersUppercase = word.toUpperCase()
-            let convert = (lettersUppercase.charCodeAt(i) + offset - 65) % 26
-            let conversionResult = convert + 65
-            let result = String.fromCharCode(conversionResult)
-            codedWord += result   
-}
-        return codedWord
-},
-    decode:
-    function(offset, word){
-        if (typeof word !== "string"){
-            throw new TypeError("Digite apenas letras");
-}
-        let codedWord = ""
-        for(let i = 0; i < word.length; i++){
-            let lettersUppercase = word.toUpperCase()
-            let convert = (lettersUppercase.charCodeAt(i) - offset + 65) % 26
-            let conversionResult = convert + 65
-            let result = String.fromCharCode(conversionResult)
-            codedWord += result   
-}
-        return codedWord
-}
+  encode(offset, word) {
+    if (typeof word !== 'string') {
+      throw new TypeError('Digite apenas letras');
+    }
+    let codedWord = '';
+    // eslint-disable-next-line no-plusplus
+    for (let i = 0; i < word.length; i++) {
+      const lettersUppercase = word.toUpperCase();
+      const convert = (lettersUppercase.charCodeAt(i) + offset - 65) % 26;
+      const conversionResult = convert + 65;
+      const result = String.fromCharCode(conversionResult);
+      codedWord += result;
+    }
+    return codedWord;
+  },
+  decode(offset, word) {
+    if (typeof word !== 'string') {
+      throw new TypeError('Digite apenas letras');
+    }
+    let codedWord = '';
+    // eslint-disable-next-line no-plusplus
+    for (let i = 0; i < word.length; i++) {
+      const lettersUppercase = word.toUpperCase();
+      const convert = (lettersUppercase.charCodeAt(i) - offset + 65) % 26;
+      const conversionResult = convert + 65;
+      const result = String.fromCharCode(conversionResult);
+      codedWord += result;
+    }
+    return codedWord;
+  },
 
-}
+};
 
 export default cipher;
